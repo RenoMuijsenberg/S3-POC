@@ -1,0 +1,6 @@
+<asl-google-signin-button #googleBtnRef *ngIf="!user"></asl-google-signin-button>
+
+<div *ngIf="user">
+  <h4>{{user.name}}</h4>
+</div>
+
